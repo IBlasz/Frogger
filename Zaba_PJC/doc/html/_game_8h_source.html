@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.18"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Frogger: Plik źródłowy C:/Users/Lenovo/OneDrive/Dokumenty/Visual Studio 2022/Projekty/Zaba_PJC/Game.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Frogger
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.18 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">C:/Users/Lenovo/OneDrive/Dokumenty/Visual Studio 2022/Projekty/Zaba_PJC/Game.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_game_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;SFML/Graphics.hpp&gt;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_frog_8h.html">Frog.h</a>&quot;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_meta_8h.html">Meta.h</a>&quot;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_object_8h.html">Object.h</a>&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_player_8h.html">Player.h</a>&quot;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_mapka_8h.html">Mapka.h</a>&quot;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;thread&gt;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &lt;chrono&gt;</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="class_game.html">   20</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_game.html">Game</a></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <a class="code" href="class_game.html#ac45a72ce81a384be42ee06fd214a9066">Game</a>(<span class="keywordtype">int</span> ticks, <span class="keywordtype">int</span> FPS);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="class_game.html#ae3d112ca6e0e55150d2fdbc704474530">~Game</a>();</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_game.html#a28d8a0a65bda89be42d9c46fc2e4f14b">Loop</a>();</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    sf::RenderWindow* window;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <a class="code" href="class_object.html">Object</a>** object;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <a class="code" href="class_frog.html">Frog</a>* frog;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">int</span> tickrate;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <a class="code" href="class_player.html">Player</a>* player;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <a class="code" href="class_mapka.html">Mapka</a>* map;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">int</span> level;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">int</span> deaths;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;};</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
+</div><!-- fragment --></div><!-- contents -->
+<div class="ttc" id="aclass_frog_html_a5658e73e4a11f6e93222d781ca59bbc5"><div class="ttname"><a href="class_frog.html#a5658e73e4a11f6e93222d781ca59bbc5">Frog::frogDies</a></div><div class="ttdeci">void frogDies(sf::Vector2u size)</div><div class="ttdoc">Metoda frogDies klasy Frog.</div><div class="ttdef"><b>Definition:</b> Frog.cpp:46</div></div>
+<div class="ttc" id="a_game_8h_html"><div class="ttname"><a href="_game_8h.html">Game.h</a></div></div>
+<div class="ttc" id="aclass_drawing_html_a3fa1394784bf00595aaafb15a5286ee3"><div class="ttname"><a href="class_drawing.html#a3fa1394784bf00595aaafb15a5286ee3">Drawing::draw</a></div><div class="ttdeci">void draw(sf::RenderWindow &amp;window)</div><div class="ttdoc">Metoda Draw Pozwala ona na narysowanie danego obiektu w oknie.</div><div class="ttdef"><b>Definition:</b> Drawing.cpp:12</div></div>
+<div class="ttc" id="aclass_player_html_adf03d0a4c9929175cb466ad8caaee9e1"><div class="ttname"><a href="class_player.html#adf03d0a4c9929175cb466ad8caaee9e1">Player::PlayerLostLives</a></div><div class="ttdeci">int PlayerLostLives()</div><div class="ttdoc">Metoda PlayerLostLives klasy Player Metoda ta zwraca ilosc smierci (kolizji z przeszkodami) gracza.</div><div class="ttdef"><b>Definition:</b> Player.cpp:9</div></div>
+<div class="ttc" id="a_mapka_8h_html"><div class="ttname"><a href="_mapka_8h.html">Mapka.h</a></div></div>
+<div class="ttc" id="aclass_game_html_ac45a72ce81a384be42ee06fd214a9066"><div class="ttname"><a href="class_game.html#ac45a72ce81a384be42ee06fd214a9066">Game::Game</a></div><div class="ttdeci">Game(int ticks, int FPS)</div><div class="ttdoc">Konstruktor klasy Game.</div><div class="ttdef"><b>Definition:</b> Game.cpp:3</div></div>
+<div class="ttc" id="aclass_mapka_html_aa1c6632638c45321a5f85a78bf422bfe"><div class="ttname"><a href="class_mapka.html#aa1c6632638c45321a5f85a78bf422bfe">Mapka::createEntities</a></div><div class="ttdeci">Object ** createEntities(sf::Vector2u size)</div><div class="ttdoc">Metoda createEntities klasy Mapka.</div><div class="ttdef"><b>Definition:</b> Mapka.cpp:9</div></div>
+<div class="ttc" id="a_meta_8h_html"><div class="ttname"><a href="_meta_8h.html">Meta.h</a></div></div>
+<div class="ttc" id="a_frog_8h_html"><div class="ttname"><a href="_frog_8h.html">Frog.h</a></div></div>
+<div class="ttc" id="aclass_object_html"><div class="ttname"><a href="class_object.html">Object</a></div><div class="ttdoc">klasa Object Definicja klasy obiektów Klasa Object jest klasą macierzystą dla klas Car,...</div><div class="ttdef"><b>Definition:</b> Object.h:13</div></div>
+<div class="ttc" id="aclass_mapka_html"><div class="ttname"><a href="class_mapka.html">Mapka</a></div><div class="ttdoc">klasa Mapka Definicja klasy mapy klasa odpowiada za stworzenie i rozmieszczenie przeszkód oraz mety</div><div class="ttdef"><b>Definition:</b> Mapka.h:16</div></div>
+<div class="ttc" id="a_player_8h_html"><div class="ttname"><a href="_player_8h.html">Player.h</a></div></div>
+<div class="ttc" id="aclass_frog_html_ae09475b436b0cfae1512ff86453b01a2"><div class="ttname"><a href="class_frog.html#ae09475b436b0cfae1512ff86453b01a2">Frog::MoveFrog</a></div><div class="ttdeci">void MoveFrog(sf::Event event)</div><div class="ttdoc">Metoda Move klasy Frog Steruje ona poruszaniem się danego obiektu.</div><div class="ttdef"><b>Definition:</b> Frog.cpp:19</div></div>
+<div class="ttc" id="aclass_drawing_html_ad249919815b0f745725792b7a6fcb1cc"><div class="ttname"><a href="class_drawing.html#ad249919815b0f745725792b7a6fcb1cc">Drawing::GetShape</a></div><div class="ttdeci">sf::RectangleShape GetShape()</div><div class="ttdoc">Metoda GetShape() Pozwala ona na nadanie obiektowi kształtu prostokąta.</div><div class="ttdef"><b>Definition:</b> Drawing.cpp:17</div></div>
+<div class="ttc" id="aclass_frog_html"><div class="ttname"><a href="class_frog.html">Frog</a></div><div class="ttdoc">klasa Frog Definicja klasy żaby</div><div class="ttdef"><b>Definition:</b> Frog.h:11</div></div>
+<div class="ttc" id="aclass_game_html_ae3d112ca6e0e55150d2fdbc704474530"><div class="ttname"><a href="class_game.html#ae3d112ca6e0e55150d2fdbc704474530">Game::~Game</a></div><div class="ttdeci">~Game()</div><div class="ttdoc">Destruktor klasy Game.</div><div class="ttdef"><b>Definition:</b> Game.cpp:19</div></div>
+<div class="ttc" id="a_object_8h_html"><div class="ttname"><a href="_object_8h.html">Object.h</a></div></div>
+<div class="ttc" id="aclass_game_html_a28d8a0a65bda89be42d9c46fc2e4f14b"><div class="ttname"><a href="class_game.html#a28d8a0a65bda89be42d9c46fc2e4f14b">Game::Loop</a></div><div class="ttdeci">void Loop()</div><div class="ttdoc">metoda Loop odpowiada za kierowanie procesami w trakcie trwania gry</div><div class="ttdef"><b>Definition:</b> Game.cpp:27</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="class_player.html">Player</a></div><div class="ttdoc">klasa Player Definicja klasy gracza</div><div class="ttdef"><b>Definition:</b> Player.h:7</div></div>
+<div class="ttc" id="aclass_player_html_a46c4548bda989283aafdfa1bf3efba5f"><div class="ttname"><a href="class_player.html#a46c4548bda989283aafdfa1bf3efba5f">Player::PlayerLevel</a></div><div class="ttdeci">int PlayerLevel()</div><div class="ttdoc">Metoda PlayerLevel klasy Player Metoda ta zwraca numer poziomu, na którym jest gracz.</div><div class="ttdef"><b>Definition:</b> Player.cpp:13</div></div>
+<div class="ttc" id="aclass_game_html"><div class="ttname"><a href="class_game.html">Game</a></div><div class="ttdoc">klasa Game Definicja klasy gry Główna klasa wykonawcza aplikacji, odpowiada za stworzenie mapy,...</div><div class="ttdef"><b>Definition:</b> Game.h:21</div></div>
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.18
+</small></address>
+</body>
+</html>

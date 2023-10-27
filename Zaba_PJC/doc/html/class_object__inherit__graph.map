@@ -1,0 +1,9 @@
+<map id="Object" name="Object">
+<area shape="rect" id="node1" title="klasa Object Definicja klasy obiektów Klasa Object jest klasą macierzystą dla klas Car,..." alt="" coords="208,189,296,296"/>
+<area shape="rect" id="node3" href="$class_car.html" title="klasa Car Definicja klasy samochodu" alt="" coords="5,344,77,451"/>
+<area shape="rect" id="node4" href="$class_levels.html" title="klassa Levels Definicja klasy poziomu Klasa pozwala na wizualizacjê poziomu gracza" alt="" coords="102,351,189,443"/>
+<area shape="rect" id="node5" href="$class_lives.html" title="klassa Lives Definicja klasy żyć Klasa pozwala na wizualizację życia gracza" alt="" coords="213,351,291,443"/>
+<area shape="rect" id="node6" href="$class_meta.html" title="klasa Meta Definicja klasy mety" alt="" coords="315,351,394,443"/>
+<area shape="rect" id="node7" href="$class_police.html" title="klasa Police Definicja klasy policji" alt="" coords="418,344,505,451"/>
+<area shape="rect" id="node2" href="$class_drawing.html" title="klasa Drawing Definicja klasy rysunku klasa macierzysta dla klas Frog i Object" alt="" coords="202,5,302,141"/>
+</map>

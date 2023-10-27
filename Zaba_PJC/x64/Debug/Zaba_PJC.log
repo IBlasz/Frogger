@@ -1,0 +1,14 @@
+﻿  frog.cpp
+  gameTile.cpp
+  gameWorld.cpp
+  Zaba_PJC.cpp
+C:\Users\Lenovo\OneDrive\Dokumenty\Visual Studio 2022\Projekty\Zaba_PJC\Zaba_PJC.cpp(11,56): warning C4244: "argument": konwersja z "float" do "unsigned int", możliwa utrata danych
+C:\Users\Lenovo\OneDrive\Dokumenty\Visual Studio 2022\Projekty\Zaba_PJC\Zaba_PJC.cpp(11,43): warning C4244: "argument": konwersja z "float" do "unsigned int", możliwa utrata danych
+  Generowanie kodu...
+Zaba_PJC.obj : error LNK2005: Element "public: __cdecl GameTile::GameTile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,float,float,bool,bool)" (??0GameTile@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MM_N1@Z) jest już zdefiniowany w elemencie gameTile.obj
+Zaba_PJC.obj : error LNK2005: Element "public: __cdecl GameWorld::GameWorld(void)" (??0GameWorld@@QEAA@XZ) jest już zdefiniowany w elemencie gameWorld.obj
+Zaba_PJC.obj : error LNK2005: Element "private: void __cdecl GameWorld::setUpEnemyPositions(void)" (?setUpEnemyPositions@GameWorld@@AEAAXXZ) jest już zdefiniowany w elemencie gameWorld.obj
+Zaba_PJC.obj : error LNK2005: Element "private: void __cdecl GameWorld::setUpInitialState(void)" (?setUpInitialState@GameWorld@@AEAAXXZ) jest już zdefiniowany w elemencie gameWorld.obj
+Zaba_PJC.obj : error LNK2005: Element "public: bool __cdecl GameTile::setUpSprite(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?setUpSprite@GameTile@@QEAA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) jest już zdefiniowany w elemencie gameTile.obj
+Zaba_PJC.obj : error LNK2005: Element "private: void __cdecl GameWorld::setUpTiles(void)" (?setUpTiles@GameWorld@@AEAAXXZ) jest już zdefiniowany w elemencie gameWorld.obj
+C:\Users\Lenovo\OneDrive\Dokumenty\Visual Studio 2022\Projekty\Zaba_PJC\x64\Debug\Zaba_PJC.exe : fatal error LNK1169: znaleziono co najmniej jeden wielokrotnie zdefiniowany symbol

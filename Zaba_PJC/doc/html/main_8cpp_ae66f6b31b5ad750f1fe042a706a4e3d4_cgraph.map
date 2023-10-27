@@ -1,0 +1,10 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,132,56,159"/>
+<area shape="rect" id="node2" href="$class_game.html#a28d8a0a65bda89be42d9c46fc2e4f14b" title="metoda Loop odpowiada za kierowanie procesami w trakcie trwania gry" alt="" coords="104,132,197,159"/>
+<area shape="rect" id="node3" href="$class_drawing.html#a3fa1394784bf00595aaafb15a5286ee3" title="Metoda Draw Pozwala ona na narysowanie danego obiektu w oknie." alt="" coords="273,5,376,32"/>
+<area shape="rect" id="node4" href="$class_frog.html#a5658e73e4a11f6e93222d781ca59bbc5" title="Metoda frogDies klasy Frog." alt="" coords="273,56,376,83"/>
+<area shape="rect" id="node5" href="$class_drawing.html#ad249919815b0f745725792b7a6fcb1cc" title="Metoda GetShape() Pozwala ona na nadanie obiektowi kształtu prostokąta." alt="" coords="257,107,392,133"/>
+<area shape="rect" id="node6" href="$class_frog.html#ae09475b436b0cfae1512ff86453b01a2" title="Metoda Move klasy Frog Steruje ona poruszaniem się danego obiektu." alt="" coords="269,157,381,184"/>
+<area shape="rect" id="node7" href="$class_player.html#a46c4548bda989283aafdfa1bf3efba5f" title="Metoda PlayerLevel klasy Player Metoda ta zwraca numer poziomu, na którym jest gracz." alt="" coords="258,208,391,235"/>
+<area shape="rect" id="node8" href="$class_player.html#adf03d0a4c9929175cb466ad8caaee9e1" title="Metoda PlayerLostLives klasy Player Metoda ta zwraca ilosc smierci (kolizji z przeszkodami) gracza." alt="" coords="245,259,404,285"/>
+</map>

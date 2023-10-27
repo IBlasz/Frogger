@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.18"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Frogger: Plik źródłowy C:/Users/Lenovo/OneDrive/Dokumenty/Visual Studio 2022/Projekty/Zaba_PJC/Car.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Frogger
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.18 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">C:/Users/Lenovo/OneDrive/Dokumenty/Visual Studio 2022/Projekty/Zaba_PJC/Car.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_car_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;SFML/Graphics.hpp&gt;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_object_8h.html">Object.h</a>&quot;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;random&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="class_car.html">   11</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_car.html">Car</a> : <span class="keyword">public</span> <a class="code" href="class_object.html">Object</a></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <a class="code" href="class_car.html#ad8abd697c1243fdb6052f23877fb4bb9">Car</a>(<span class="keywordtype">float</span> posX, <span class="keywordtype">float</span> posY, std::string tekstura);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <a class="code" href="class_car.html#a5933bb06e96b159fe339a128abda888a">~Car</a>();</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_car.html#a10d09588a70237cd7c7122f808517167">Move</a>(sf::Vector2u size, <span class="keywordtype">int</span> globalTickrate);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordtype">float</span> originalPosX, originalPosY;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">int</span> tickrate;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;};</div>
+</div><!-- fragment --></div><!-- contents -->
+<div class="ttc" id="aclass_car_html_a10d09588a70237cd7c7122f808517167"><div class="ttname"><a href="class_car.html#a10d09588a70237cd7c7122f808517167">Car::Move</a></div><div class="ttdeci">void Move(sf::Vector2u size, int globalTickrate)</div><div class="ttdoc">Metoda Move klasy Car Steruje ona poruszaniem się danego obiektu.</div><div class="ttdef"><b>Definition:</b> Car.cpp:23</div></div>
+<div class="ttc" id="aclass_drawing_html_a472a2fb7efe31f9f25e4b6ebc8fddc6e"><div class="ttname"><a href="class_drawing.html#a472a2fb7efe31f9f25e4b6ebc8fddc6e">Drawing::texture</a></div><div class="ttdeci">sf::Texture texture</div><div class="ttdoc">Tekstura obiektu.</div><div class="ttdef"><b>Definition:</b> Drawing.h:37</div></div>
+<div class="ttc" id="aclass_car_html_a5933bb06e96b159fe339a128abda888a"><div class="ttname"><a href="class_car.html#a5933bb06e96b159fe339a128abda888a">Car::~Car</a></div><div class="ttdeci">~Car()</div><div class="ttdoc">Destruktor klasy Car.</div><div class="ttdef"><b>Definition:</b> Car.cpp:17</div></div>
+<div class="ttc" id="aclass_car_html_ad8abd697c1243fdb6052f23877fb4bb9"><div class="ttname"><a href="class_car.html#ad8abd697c1243fdb6052f23877fb4bb9">Car::Car</a></div><div class="ttdeci">Car(float posX, float posY, std::string tekstura)</div><div class="ttdoc">Konstruktor klasy Car.</div><div class="ttdef"><b>Definition:</b> Car.cpp:4</div></div>
+<div class="ttc" id="aclass_car_html"><div class="ttname"><a href="class_car.html">Car</a></div><div class="ttdoc">klasa Car Definicja klasy samochodu</div><div class="ttdef"><b>Definition:</b> Car.h:12</div></div>
+<div class="ttc" id="a_car_8h_html"><div class="ttname"><a href="_car_8h.html">Car.h</a></div></div>
+<div class="ttc" id="aclass_object_html"><div class="ttname"><a href="class_object.html">Object</a></div><div class="ttdoc">klasa Object Definicja klasy obiektów Klasa Object jest klasą macierzystą dla klas Car,...</div><div class="ttdef"><b>Definition:</b> Object.h:13</div></div>
+<div class="ttc" id="a_object_8h_html"><div class="ttname"><a href="_object_8h.html">Object.h</a></div></div>
+<div class="ttc" id="aclass_drawing_html_a75e761bcf71535288354734f0ca8e6da"><div class="ttname"><a href="class_drawing.html#a75e761bcf71535288354734f0ca8e6da">Drawing::shape</a></div><div class="ttdeci">sf::RectangleShape shape</div><div class="ttdoc">Kształt obiektu.</div><div class="ttdef"><b>Definition:</b> Drawing.h:35</div></div>
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.18
+</small></address>
+</body>
+</html>

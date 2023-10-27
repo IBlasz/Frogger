@@ -1,0 +1,4 @@
+<map id="Frog" name="Frog">
+<area shape="rect" id="node1" title="klasa Frog Definicja klasy żaby" alt="" coords="6,189,105,311"/>
+<area shape="rect" id="node2" href="$class_drawing.html" title="klasa Drawing Definicja klasy rysunku klasa macierzysta dla klas Frog i Object" alt="" coords="5,5,105,141"/>
+</map>

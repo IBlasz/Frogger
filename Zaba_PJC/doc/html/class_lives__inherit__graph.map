@@ -1,0 +1,5 @@
+<map id="Lives" name="Lives">
+<area shape="rect" id="node1" title="klassa Lives Definicja klasy żyć Klasa pozwala na wizualizację życia gracza" alt="" coords="16,344,95,436"/>
+<area shape="rect" id="node2" href="$class_object.html" title="klasa Object Definicja klasy obiektów Klasa Object jest klasą macierzystą dla klas Car,..." alt="" coords="11,189,99,296"/>
+<area shape="rect" id="node3" href="$class_drawing.html" title="klasa Drawing Definicja klasy rysunku klasa macierzysta dla klas Frog i Object" alt="" coords="5,5,105,141"/>
+</map>

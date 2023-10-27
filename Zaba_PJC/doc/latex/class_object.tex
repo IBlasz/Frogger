@@ -1,0 +1,97 @@
+\hypertarget{class_object}{}\doxysection{Dokumentacja klasy Object}
+\label{class_object}\index{Object@{Object}}
+
+
+klasa \mbox{\hyperlink{class_object}{Object}} Definicja klasy obiektów Klasa \mbox{\hyperlink{class_object}{Object}} jest klasą macierzystą dla klas \mbox{\hyperlink{class_car}{Car}}, \mbox{\hyperlink{class_police}{Police}} i \mbox{\hyperlink{class_meta}{Meta}}  
+
+
+
+
+{\ttfamily \#include $<$Object.\+h$>$}
+
+
+
+Diagram dziedziczenia dla Object\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_object__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Diagram współpracy dla Object\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=155pt]{class_object__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_object_a40860402e64d8008fb42329df7097cdb}{Object}} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy \mbox{\hyperlink{class_object}{Object}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_object_ae8f5483f459e46687bd01e6f9977afd3}{$\sim$\+Object}} ()
+\begin{DoxyCompactList}\small\item\em Dekonstruktor klasy \mbox{\hyperlink{class_object}{Object}}. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_object_afc9f2d5719e5040059eeec755c021f49}{Move}} (sf\+::\+Vector2u size, int global\+Tickrate)
+\begin{DoxyCompactList}\small\item\em Metoda wirtualna Move Steruje ona poruszaniem się danego obiektu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Dodatkowe Dziedziczone Składowe}
+
+
+\doxysubsection{Opis szczegółowy}
+klasa \mbox{\hyperlink{class_object}{Object}} Definicja klasy obiektów Klasa \mbox{\hyperlink{class_object}{Object}} jest klasą macierzystą dla klas \mbox{\hyperlink{class_car}{Car}}, \mbox{\hyperlink{class_police}{Police}} i \mbox{\hyperlink{class_meta}{Meta}} 
+
+
+
+\doxysubsection{Dokumentacja konstruktora i destruktora}
+\mbox{\Hypertarget{class_object_a40860402e64d8008fb42329df7097cdb}\label{class_object_a40860402e64d8008fb42329df7097cdb}} 
+\index{Object@{Object}!Object@{Object}}
+\index{Object@{Object}!Object@{Object}}
+\doxysubsubsection{\texorpdfstring{Object()}{Object()}}
+{\footnotesize\ttfamily Object\+::\+Object (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Konstruktor klasy \mbox{\hyperlink{class_object}{Object}}. 
+
+\mbox{\Hypertarget{class_object_ae8f5483f459e46687bd01e6f9977afd3}\label{class_object_ae8f5483f459e46687bd01e6f9977afd3}} 
+\index{Object@{Object}!````~Object@{$\sim$Object}}
+\index{````~Object@{$\sim$Object}!Object@{Object}}
+\doxysubsubsection{\texorpdfstring{$\sim$Object()}{~Object()}}
+{\footnotesize\ttfamily Object\+::$\sim$\+Object (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Dekonstruktor klasy \mbox{\hyperlink{class_object}{Object}}. 
+
+
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\mbox{\Hypertarget{class_object_afc9f2d5719e5040059eeec755c021f49}\label{class_object_afc9f2d5719e5040059eeec755c021f49}} 
+\index{Object@{Object}!Move@{Move}}
+\index{Move@{Move}!Object@{Object}}
+\doxysubsubsection{\texorpdfstring{Move()}{Move()}}
+{\footnotesize\ttfamily void Object\+::\+Move (\begin{DoxyParamCaption}\item[{sf\+::\+Vector2u}]{size,  }\item[{int}]{global\+Tickrate }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Metoda wirtualna Move Steruje ona poruszaniem się danego obiektu. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em size} & pozwala na okreslenie kiedy obiekt znalazł się poza oknem gry \\
+\hline
+{\em global\+Tickrate} & steruje predkoscia wykonywania ruchów jest to metoda czysto wirtualna -\/ nie wykonuje sie w programie \\
+\hline
+\end{DoxyParams}
+
+
+Reimplementowana w \mbox{\hyperlink{class_car_a10d09588a70237cd7c7122f808517167}{Car}} i \mbox{\hyperlink{class_police_a83b90e17803f7a6d88c27e170a955da9}{Police}}.
+
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Lenovo/\+One\+Drive/\+Dokumenty/\+Visual Studio 2022/\+Projekty/\+Zaba\+\_\+\+P\+J\+C/\mbox{\hyperlink{_object_8h}{Object.\+h}}\item 
+C\+:/\+Users/\+Lenovo/\+One\+Drive/\+Dokumenty/\+Visual Studio 2022/\+Projekty/\+Zaba\+\_\+\+P\+J\+C/\mbox{\hyperlink{_object_8cpp}{Object.\+cpp}}\end{DoxyCompactItemize}

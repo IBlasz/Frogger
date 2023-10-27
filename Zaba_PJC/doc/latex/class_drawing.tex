@@ -1,0 +1,144 @@
+\hypertarget{class_drawing}{}\doxysection{Dokumentacja klasy Drawing}
+\label{class_drawing}\index{Drawing@{Drawing}}
+
+
+klasa \mbox{\hyperlink{class_drawing}{Drawing}} Definicja klasy rysunku klasa macierzysta dla klas \mbox{\hyperlink{class_frog}{Frog}} i \mbox{\hyperlink{class_object}{Object}}  
+
+
+
+
+{\ttfamily \#include $<$Drawing.\+h$>$}
+
+
+
+Diagram dziedziczenia dla Drawing\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_drawing__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Diagram współpracy dla Drawing\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=155pt]{class_drawing__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_drawing_a9fb3a5b171cda26bb4dfccce875642c3}{Drawing}} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy \mbox{\hyperlink{class_drawing}{Drawing}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_drawing_a704a4be87976fca2f8b175a4aa257e9d}{$\sim$\+Drawing}} ()
+\begin{DoxyCompactList}\small\item\em Destruktor klasy \mbox{\hyperlink{class_drawing}{Drawing}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_drawing_a3fa1394784bf00595aaafb15a5286ee3}{draw}} (sf\+::\+Render\+Window \&window)
+\begin{DoxyCompactList}\small\item\em Metoda Draw Pozwala ona na narysowanie danego obiektu w oknie. \end{DoxyCompactList}\item 
+sf\+::\+Rectangle\+Shape \mbox{\hyperlink{class_drawing_ad249919815b0f745725792b7a6fcb1cc}{Get\+Shape}} ()
+\begin{DoxyCompactList}\small\item\em Metoda \mbox{\hyperlink{class_drawing_ad249919815b0f745725792b7a6fcb1cc}{Get\+Shape()}} Pozwala ona na nadanie obiektowi kształtu prostokąta. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Atrybuty chronione}
+\begin{DoxyCompactItemize}
+\item 
+sf\+::\+Rectangle\+Shape \mbox{\hyperlink{class_drawing_a75e761bcf71535288354734f0ca8e6da}{shape}}
+\begin{DoxyCompactList}\small\item\em Kształt obiektu. \end{DoxyCompactList}\item 
+sf\+::\+Texture \mbox{\hyperlink{class_drawing_a472a2fb7efe31f9f25e4b6ebc8fddc6e}{texture}}
+\begin{DoxyCompactList}\small\item\em Tekstura obiektu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Opis szczegółowy}
+klasa \mbox{\hyperlink{class_drawing}{Drawing}} Definicja klasy rysunku klasa macierzysta dla klas \mbox{\hyperlink{class_frog}{Frog}} i \mbox{\hyperlink{class_object}{Object}} 
+
+\doxysubsection{Dokumentacja konstruktora i destruktora}
+\mbox{\Hypertarget{class_drawing_a9fb3a5b171cda26bb4dfccce875642c3}\label{class_drawing_a9fb3a5b171cda26bb4dfccce875642c3}} 
+\index{Drawing@{Drawing}!Drawing@{Drawing}}
+\index{Drawing@{Drawing}!Drawing@{Drawing}}
+\doxysubsubsection{\texorpdfstring{Drawing()}{Drawing()}}
+{\footnotesize\ttfamily Drawing\+::\+Drawing (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Konstruktor klasy \mbox{\hyperlink{class_drawing}{Drawing}}. 
+
+\mbox{\Hypertarget{class_drawing_a704a4be87976fca2f8b175a4aa257e9d}\label{class_drawing_a704a4be87976fca2f8b175a4aa257e9d}} 
+\index{Drawing@{Drawing}!````~Drawing@{$\sim$Drawing}}
+\index{````~Drawing@{$\sim$Drawing}!Drawing@{Drawing}}
+\doxysubsubsection{\texorpdfstring{$\sim$Drawing()}{~Drawing()}}
+{\footnotesize\ttfamily Drawing\+::$\sim$\+Drawing (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destruktor klasy \mbox{\hyperlink{class_drawing}{Drawing}}. 
+
+
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\mbox{\Hypertarget{class_drawing_a3fa1394784bf00595aaafb15a5286ee3}\label{class_drawing_a3fa1394784bf00595aaafb15a5286ee3}} 
+\index{Drawing@{Drawing}!draw@{draw}}
+\index{draw@{draw}!Drawing@{Drawing}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void Drawing\+::draw (\begin{DoxyParamCaption}\item[{sf\+::\+Render\+Window \&}]{window }\end{DoxyParamCaption})}
+
+
+
+Metoda Draw Pozwala ona na narysowanie danego obiektu w oknie. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em window} & okno gry \\
+\hline
+\end{DoxyParams}
+Oto graf wywoływań tej funkcji\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=337pt]{class_drawing_a3fa1394784bf00595aaafb15a5286ee3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_drawing_ad249919815b0f745725792b7a6fcb1cc}\label{class_drawing_ad249919815b0f745725792b7a6fcb1cc}} 
+\index{Drawing@{Drawing}!GetShape@{GetShape}}
+\index{GetShape@{GetShape}!Drawing@{Drawing}}
+\doxysubsubsection{\texorpdfstring{GetShape()}{GetShape()}}
+{\footnotesize\ttfamily sf\+::\+Rectangle\+Shape Drawing\+::\+Get\+Shape (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Metoda \mbox{\hyperlink{class_drawing_ad249919815b0f745725792b7a6fcb1cc}{Get\+Shape()}} Pozwala ona na nadanie obiektowi kształtu prostokąta. 
+
+Oto graf wywoływań tej funkcji\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_drawing_ad249919815b0f745725792b7a6fcb1cc_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Dokumentacja atrybutów składowych}
+\mbox{\Hypertarget{class_drawing_a75e761bcf71535288354734f0ca8e6da}\label{class_drawing_a75e761bcf71535288354734f0ca8e6da}} 
+\index{Drawing@{Drawing}!shape@{shape}}
+\index{shape@{shape}!Drawing@{Drawing}}
+\doxysubsubsection{\texorpdfstring{shape}{shape}}
+{\footnotesize\ttfamily sf\+::\+Rectangle\+Shape Drawing\+::shape\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Kształt obiektu. 
+
+\mbox{\Hypertarget{class_drawing_a472a2fb7efe31f9f25e4b6ebc8fddc6e}\label{class_drawing_a472a2fb7efe31f9f25e4b6ebc8fddc6e}} 
+\index{Drawing@{Drawing}!texture@{texture}}
+\index{texture@{texture}!Drawing@{Drawing}}
+\doxysubsubsection{\texorpdfstring{texture}{texture}}
+{\footnotesize\ttfamily sf\+::\+Texture Drawing\+::texture\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Tekstura obiektu. 
+
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Lenovo/\+One\+Drive/\+Dokumenty/\+Visual Studio 2022/\+Projekty/\+Zaba\+\_\+\+P\+J\+C/\mbox{\hyperlink{_drawing_8h}{Drawing.\+h}}\item 
+C\+:/\+Users/\+Lenovo/\+One\+Drive/\+Dokumenty/\+Visual Studio 2022/\+Projekty/\+Zaba\+\_\+\+P\+J\+C/\mbox{\hyperlink{_drawing_8cpp}{Drawing.\+cpp}}\end{DoxyCompactItemize}
